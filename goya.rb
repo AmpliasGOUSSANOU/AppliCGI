@@ -9,7 +9,7 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
   "<html>
     <body>
       <p>The informations about the bitter gourd with bad quality are as follows</p>
-      String：#{get}
+      #{get}
     </body>
   </html>"
 }

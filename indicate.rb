@@ -4,12 +4,12 @@ cgi = CGI.new
 
 cgi.out("type" => "text/html", "charset" => "UTF-8") {
 
-  get = cgi['input']
+  get = cgi['inp']
   #Return response in HTML
   "<html>
     <body>
-      <p>受け取ったundefinedは下記になります</p>
-      <p> string：#{get}</p>
+      <p>La taille de la courge amère et les informations de la personne qui l'a vendue sont les suivantes</p>
+      #{get}
     </body>
   </html>"
 }
